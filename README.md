@@ -1,7 +1,7 @@
 https://github.com/vimagick/dockerfiles/tree/master/live555
 
 To access the rtsp stream use following:
-
+<pre>
 $ docker-compose up --build
 Pulling rtsp_server_live555 (vimagick/live555:)...
 latest: Pulling from vimagick/live555
@@ -36,3 +36,4 @@ rtsp_server_live555_1  | 	".wav" => a WAV Audio file
 rtsp_server_live555_1  | 	".webm" => a WebM audio(Vorbis)+video(VP8) file
 rtsp_server_live555_1  | See http://www.live555.com/mediaServer/ for additional documentation.
 rtsp_server_live555_1  | (We use port 80 for optional RTSP-over-HTTP tunneling, or for HTTP live streaming (for indexed Transport Stream files only).)
+</pre>
