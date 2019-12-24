@@ -1,4 +1,5 @@
 https://github.com/vimagick/dockerfiles/tree/master/live555
+sample videos downloaded from http://www.live555.com/liveMedia/faq.html#264-file
 
 To access the rtsp stream use following:
 <pre>
