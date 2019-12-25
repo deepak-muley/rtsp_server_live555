@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+    rtsp_server_happytime:
+        container_name: rtsp_server_happytime
+        image: rtsp_server_happytime
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+        - "8080:80"
+        - "554:554"
+        volumes:
+        - ./data:/data
+        restart: always
